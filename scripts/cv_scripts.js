@@ -45,6 +45,7 @@ for (let i = 0; i < languageContainer.length; i++) {
     });
 }
 
+/* Aquí detectamos si los elementos de clase sensor están totalmente visibles en la pantalla y luego aplicamos el efecto de aparición de los elementos relacionados a este. */
 
 addListenerMulti(window, 'load scroll', function () {
     for (let i = 0; i < sensor.length; i++) {
